@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Con",
+      "request": "launch",
+      "mainClass": "opdracht1.Con",
+      "projectName": "java_e1026b3c"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "java_e1026b3c"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "opdracht1.Main",
+      "projectName": "java_e1026b3c"
+    }
+  ]
+}
