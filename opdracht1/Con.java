@@ -25,3 +25,25 @@ public class Con {
     }
   }
 }
+
+/**
+Output:
+
+Maakt connectie
+Heeft connectie
+SMIT
+ALDERS
+DE WAARD
+
+JANSEN
+MARTENS
+BLAAK
+CLERCKX
+SCHOTTEN
+DE KONING
+DEN DRAAIER
+ADAMS
+JANSEN
+SPIJKER
+MOLENAAR
+ */
