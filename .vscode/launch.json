@@ -4,6 +4,13 @@
       "type": "java",
       "name": "CodeLens (Launch) - Con",
       "request": "launch",
+      "mainClass": "opdracht1_1.Con",
+      "projectName": "data-processing_251e973b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Con",
+      "request": "launch",
       "mainClass": "opdracht1.Con",
       "projectName": "data-processing_251e973b"
     },
