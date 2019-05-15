@@ -1,4 +1,4 @@
-package opdracht1;
+package persistentie.opdracht1;
 
 public class Main {
   public static void main(String[] args) {

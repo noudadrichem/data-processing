@@ -1,4 +1,4 @@
-package opdracht1;
+package persistentie.opdracht1;
 
 import java.sql.*;
 

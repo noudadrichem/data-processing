@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "persistentie.opdracht1_2.Main",
+      "projectName": "data-processing_251e973b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Con",
       "request": "launch",
       "mainClass": "opdracht1_1.Con",
