@@ -92,11 +92,11 @@ public class OVChipKaartOracleDaoImpl extends OracleBaseDao implements OVChipKaa
 
     private  OVChipKaart toOVChipKaart(ResultSet resultSet) throws SQLException {
         return new OVChipKaart(
-                resultSet.getInt("KAARTNUMMER"),
-                resultSet.getDate("GELDIGTOT"),
-                resultSet.getInt("KLASSE"),
-                resultSet.getDouble("SALDO"),
-                resultSet.getInt("REIZIGERID")
+            resultSet.getInt("KAARTNUMMER"),
+            resultSet.getDate("GELDIGTOT"),
+            resultSet.getInt("KLASSE"),
+            resultSet.getDouble("SALDO"),
+            resultSet.getInt("REIZIGERID")
         );
     }
 }
