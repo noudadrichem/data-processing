@@ -14,7 +14,7 @@
 		<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
 
 		<!-- List of XML mapping files -->
-		<mapping resource="Reiziger.hbm.xml" />
+		<mapping resource="./Reiziger.hbm.xml" />
 
 	</session-factory>
 
