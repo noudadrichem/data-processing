@@ -24,6 +24,10 @@ public class OVChipKaart {
         return kaartNummer;
     }
 
+    public void setKaartnummer(int nieuwNummer) {
+        this.kaartNummer = nieuwNummer;
+    }
+
     public void setKaartNummer(int kaartNummer) {
         this.kaartNummer = kaartNummer;
     }

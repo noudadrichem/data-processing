@@ -38,8 +38,14 @@ public class ProductOracleDaoImpl extends OracleBaseDao implements ProductDao {
 
     private Product toProduct(ResultSet resultSet) throws SQLException {
         OVChipKaartOracleDaoImpl chipKaartOracleDao = new OVChipKaartOracleDaoImpl();
-        return new Product(resultSet.getInt(1), resultSet.getString(2), resultSet.getString(3), resultSet.getDouble(4),
-                chipKaartOracleDao.findByProduct(resultSet.getInt(1)));
+        return new Product(
+            resultSet.getInt(1), 
+            resultSet.getString(2), 
+            resultSet.getString(3), 
+            resultSet.getDouble(4),
+            chipKaartOracleDao.findByProduct(resultSet.getInt(1))
+        );
+        return null;
     }
 
     public Product save(Product product) {
@@ -107,7 +113,7 @@ public class ProductOracleDaoImpl extends OracleBaseDao implements ProductDao {
                 list.add(product);
             }
             rs.close();
-            statement.close();w
+            statement.close();
             return list;
         } catch (SQLException e) {
             System.out.println(e.getMessage());

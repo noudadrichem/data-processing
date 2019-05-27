@@ -1,11 +1,8 @@
 package p3;
 
-public interface OVChipKaartProductDao {
+import java.util.ArrayList;
 
-  public void getOvKaartById(int id);
-  
-  public void getOvKaartByProductId(int id);
-
-  public void getOvKaartFromBoth(int id);
-
+public interface OVChipKaartProductDao<OVChipKaarProduct> {
+	public OVChipKaarProduct findById(int id);
+	public ArrayList<OVChipKaarProduct> findByIdInBothTables(int id);
 }
