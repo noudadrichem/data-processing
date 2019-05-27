@@ -1,4 +1,4 @@
-package persistentie.opdracht1_2;
+package p3;
 
 import java.sql.*;
 import java.util.ArrayList;

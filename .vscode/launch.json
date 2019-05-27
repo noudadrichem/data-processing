@@ -4,6 +4,13 @@
       "type": "java",
       "name": "CodeLens (Launch) - Main",
       "request": "launch",
+      "mainClass": "p3.Main",
+      "projectName": "simple-dao-implementatie"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
       "mainClass": "persistentie.opdracht1_2.Main",
       "projectName": "data-processing_251e973b"
     },

@@ -1,4 +1,4 @@
-package persistentie.opdracht1_2;
+package p3;
 
 import java.sql.*;
 
@@ -8,5 +8,5 @@ public class OracleBaseDao {
         return DriverManager.getConnection("jdbc:oracle:thin:@//localhost:49161/xe", "NOUD", "test1234");
     }
 
-    public void closeConnection() {}
+    public void closeConnection() throws SQLException {}
 }
