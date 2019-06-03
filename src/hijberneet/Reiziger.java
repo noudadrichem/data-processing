@@ -8,6 +8,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 import java.sql.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -39,7 +40,7 @@ public class Reiziger {
     }
 
     public Reiziger(int id, String voornaam, String tussenvoegsel, String achternaam, Date gbdatum) {
-        this(id, voornaam, tussenvoegsel, achternaam, gbdatum, null);
+        this(id, voornaam, tussenvoegsel, achternaam, gbdatum, new ArrayList<>());
     }
 
     public Reiziger(int id, String voornaam, String tussenvoegsel, String achternaam, Date gbdatum, List<OVChipkaart> ovChipkaarten) {
